@@ -12,51 +12,51 @@ const OurService = () => {
 
   const imageData = [
     {
-      title: "Schizophrenia and Other Psychotic Disorders", image: "../../../assets/S1.jpeg",
+      title: "Schizophrenia and Other Psychotic Disorders", image: `${process.env.PUBLIC_URL}/assets/S1.jpeg`,
       para: "Schizophrenia and related psychotic disorders are serious mental health conditions that affect a person's thinking, emotions, and behavior. Individuals may experience symptoms such as hallucinations (seeing or hearing things that are not real), delusions (false beliefs), disorganized thinking, and a lack of motivation or emotional expression.",
       Desc: "Schizophrenia and related psychotic disorders are serious mental health conditions that affect a person's thinking, emotions, and behavior. Individuals may experience symptoms such as hallucinations (seeing or hearing things that are not real), delusions (false beliefs), disorganized thinking, and a lack of motivation or emotional expression. These conditions often interfere with daily functioning and relationships, but with consistent treatment, structured support, and compassionate care, many individuals can experience significant improvement.",
       Child: "Our facility provides a safe, therapeutic environment where residents receive psychiatric care, medication management, counseling, and rehabilitation to promote recovery and enhance quality of life."
     },
     {
-      title: "Bipolar Affective Disorder", image: "../../../assets/Bipolar.jpg",
+      title: "Bipolar Affective Disorder", image: `${process.env.PUBLIC_URL}/assets/Bipolar.jpg`,
       para: "Bipolar Affective Disorder is a mental health condition marked by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression).",
       Desc: "Bipolar Affective Disorder is a mental health condition marked by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression). During manic phases, individuals may feel overly energetic, euphoric, or irritable, while depressive episodes can bring feelings of sadness, hopelessness, and fatigue. Without proper treatment, these shifts can impact daily life, work, relationships, and decision-making.",
       Child: "At our center, we provide personalized care that includes mood stabilization through medication, regular psychiatric monitoring, therapeutic interventions, and a supportive environment to help individuals lead balanced and fulfilling lives."
     },
     {
-      title: "Chronic Depression", image: "../../../assets/chonic.jpg",
+      title: "Chronic Depression", image: `${process.env.PUBLIC_URL}/assets/chonic.jpg`,
       para: "Chronic Depression, also known as Persistent Depressive Disorder (Dysthymia), is a long-term form of depression that lasts for years. Individuals may experience a continuous low mood, lack of interest in daily activities, low self-esteem, fatigue, and difficulty concentrating.",
       Desc: "Chronic Depression, also known as Persistent Depressive Disorder (Dysthymia), is a long-term form of depression that lasts for years. Individuals may experience a continuous low mood, lack of interest in daily activities, low self-esteem, fatigue, and difficulty concentrating. Though the symptoms may be less intense than major depression, their long-lasting nature can severely impact a person's quality of life.",
       Child: "Our facility offers compassionate care, regular psychiatric support, counseling, and structured daily activities to help manage symptoms and support emotional well-being."
     },
      {
-      title: "Intellectual Disabilities (ID) with Psychiatric Symptoms", image: "../../../assets/ID.jpg",
+      title: "Intellectual Disabilities (ID) with Psychiatric Symptoms", image: `${process.env.PUBLIC_URL}/assets/ID.jpg`,
       para: "ID involve limitations in intellectual functioning and adaptive behavior, affecting daily living skills, communication, and social interaction.",
       Desc: "ID involve limitations in intellectual functioning and adaptive behavior, affecting daily living skills, communication, and social interaction. When individuals with ID also experience psychiatric symptoms—such as anxiety, depression, mood swings, or psychosis—their challenges become more complex and require specialized care.",
       Child: "Our center provides integrated support for individuals with both intellectual disabilities and co-occurring mental health conditions. Services include psychiatric evaluation, behavior management, personalized therapeutic programs, and compassionate caregiving to promote stability, dignity, and improved quality of life."
     },
     {
-      title: "Obsessive-Compulsive Disorder (OCD)", image: "../../../assets/OCD.jpg",
+      title: "Obsessive-Compulsive Disorder (OCD)", image: `${process.env.PUBLIC_URL}/assets/OCD.jpg`,
       para: "OCD is a mental health condition characterized by unwanted, recurring thoughts (obsessions) and repetitive behaviors or rituals (compulsions) that individuals feel driven to perform. ",
       Desc: "OCD is a mental health condition characterized by unwanted, recurring thoughts (obsessions) and repetitive behaviors or rituals (compulsions) that individuals feel driven to perform. These patterns can interfere with daily life, causing significant distress and anxiety. Common obsessions include fears of contamination or harm, while compulsions may involve excessive cleaning, checking, or counting.",
       Child: "At our center, individuals with OCD receive structured therapy, including behavioral interventions, psychiatric care, and emotional support to help manage symptoms and improve functioning."
     },
    
     {
-      title: "Personality Disorders", image: "../../../assets/PD.jpg",
+      title: "Personality Disorders", image: `${process.env.PUBLIC_URL}/assets/PD.jpg`,
       para: "Personality Disorders are long-standing patterns of thoughts, feelings, and behaviors that deviate significantly from cultural expectations, causing difficulties in relationships, work, and daily functioning.",
       Desc: "Personality Disorders are long-standing patterns of thoughts, feelings, and behaviors that deviate significantly from cultural expectations, causing difficulties in relationships, work, and daily functioning. These patterns often begin in adolescence or early adulthood and can lead to distress or impairment over time. Common types include Borderline, Antisocial, Narcissistic, and Avoidant Personality Disorders, among others. Individuals may struggle with emotional regulation, interpersonal conflict, self-image, and impulse control.",
       Child: "Our center provides structured therapeutic interventions, psychiatric care, and supportive counseling tailored to the needs of individuals with personality disorders, helping them lead more stable, fulfilling lives."
     },
    
      {
-      title: "Psychosocial Disabilities", image: "../../../assets/PshyosocialDis.jpg",
+      title: "Psychosocial Disabilities", image: `${process.env.PUBLIC_URL}/assets/PshyosocialDis.jpg`,
       para: "Psychosocial disabilities refer to the challenges faced by individuals with mental health conditions that impact their ability to participate fully in society.",
       Desc: "Psychosocial disabilities refer to the challenges faced by individuals with mental health conditions that impact their ability to participate fully in society. These disabilities may affect social interactions, employment, education, and daily living activities, often resulting from conditions like schizophrenia, bipolar disorder, depression, and anxiety.",
       Child: "At our center, we focus on holistic support that includes psychiatric care, counseling, skill development, and community integration programs. Our goal is to empower individuals with psychosocial disabilities to lead fulfilling, independent lives with dignity and respect."
     },
     {
-      title: "Substance-Induced Psychosis", image: "../../../assets/substance.jpg",
+      title: "Substance-Induced Psychosis", image: `${process.env.PUBLIC_URL}/assets/substance.jpg`,
       para: "Substance-Induced Psychosis occurs when the use of or withdrawal from drugs, alcohol, or certain medications triggers symptoms of psychosis, such as hallucinations, delusions, confusion, or disorganized thinking.",
       Desc: "Substance-Induced Psychosis occurs when the use of or withdrawal from drugs, alcohol, or certain medications triggers symptoms of psychosis, such as hallucinations, delusions, confusion, or disorganized thinking. These symptoms can be temporary or, in some cases, lead to longer-term psychiatric conditions if left untreated.",
       Child: "Our facility provides comprehensive care, including detoxification support, psychiatric stabilization, medication management, and counseling to help individuals recover safely and prevent recurrence. We also offer rehabilitation services and family support to promote long-term recovery and reintegration."

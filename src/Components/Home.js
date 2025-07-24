@@ -8,10 +8,12 @@ import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const history = useNavigate();
+  const baseURL = process.env.PUBLIC_URL + "/assets/";
+
   const images = [
-    "/assets/Home1.jpg",
-    "/assets/Home2.jpg",
-    "/assets/Home3.jpg",
+    baseURL + "Home1.jpg",
+    baseURL +"Home2.jpg",
+    baseURL +"Home3.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,7 +61,7 @@ const Home = () => {
           />
         ))}
         <div className="carousel-content">
-          <img src='../../../assets/LogoInformh.png' alt='icons' className="carousel-logo" />
+          <img src={`${process.env.PUBLIC_URL}/assets/LogoInformh.png`} alt='icons' className="carousel-logo" />
           <h1>Serving with Love and Compassion</h1>
           <p>
             INDIA FORUM FOR THE MENTAL HEALTH

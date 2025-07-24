@@ -11,61 +11,61 @@ const AboutUs = () => {
       title: "Compassion",
       description:
         "We treat every individual with empathy, kindness, and dignity, recognizing the unique challenges they face.",
-      icon: "../../../assets/Collborsation1.png", // Replace with actual image path
+      icon: `${process.env.PUBLIC_URL}/assets/Collborsation1.png`, // Replace with actual image path
     },
     {
       title: "Respect",
       description:
         "We honor the rights, choices, and individuality of each person, fostering a culture of inclusion and acceptance.",
-      icon: "../../../assets/Respect1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Respect1.png`,
     },
     {
       title: "Integrity",
       description:
         "We uphold the highest standards of honesty, transparency, and ethical care in all that we do.",
-      icon: "../../../assets/Integrity1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Integrity1.png`,
     },
     {
       title: "Generosity",
       description:
         "We serve with open hearts offering time, resources, and care without expecting anything in return.",
-      icon: "../../../assets/Genoeosity1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Genoeosity1.png`,
     },
     {
       title: "Holistic Approach",
       description:
         "We believe in addressing mental, emotional, physical, and social well-being for comprehensive healing and growth.",
-      icon: "../../../assets/Wholistic1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Wholistic1.png`,
     },
     {
       title: "Empowerment",
       description:
         "We strive to equip individuals with the skills, confidence, and support they need to lead fulfilling lives.",
-      icon: "../../../assets/Empower1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Empower1.png`,
     },
     {
       title: "Transformation",
       description:
         "We believe in the power of healing and change, guiding individuals on their journey toward renewed purpose and self-worth.",
-      icon: "../../../assets/Transformation1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Transformation1.png`,
     },
     {
       title: "Excellence",
       description:
         "We continuously seek to improve our services through best practices, professional development, and innovative approaches.",
-      icon: "../../../assets/Excellence1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Excellence1.png`,
     },
      {
       title: "Collaboration",
       description:
         "We work closely with families, communities, and healthcare professionals to ensure integrated and effective support.",
-      icon: "../../../assets/Collborsation1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Collborsation1.png`,
     },
      {
       title: "Hope",
       description:
         "We foster a positive, uplifting environment where hope leads the way to recovery and a better future.",
-      icon: "../../../assets/Hope1.png",
+      icon: `${process.env.PUBLIC_URL}/assets/Hope1.png`,
     },
   ];
 
@@ -138,7 +138,7 @@ const AboutUs = () => {
                 <Grid  size={{ xs: 12, sm: 12, md: 5, lg: 5 }}>
                   <Box
                     component="img"
-                    src='../../../assets/Founder.jpg'
+                    src={`${process.env.PUBLIC_URL}/assets/Founder.jpg`}
                     alt="Founder"
                     sx={{
                       width: '100%',

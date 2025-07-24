@@ -57,7 +57,7 @@ const Navbar = () => {
         <Grid size={{ xs: 6, sm: 6, md: 4, lg: 4 }}>
           <div className="logo">
             <a href="/">
-              <img src="../../../assets/Logo2.png" alt="Logo" />
+              <img src={`${process.env.PUBLIC_URL}/assets/Logo2.png`} alt="Logo" />
             </a>
           </div>
         </Grid>
