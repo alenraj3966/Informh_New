@@ -63,14 +63,14 @@ const OurService = () => {
 
     },
       {
-      title: "Age-related Psychiatric Conditions", image: "../../../assets/age.jpg",
+      title: "Age-related Psychiatric Conditions", image: `${process.env.PUBLIC_URL}/assets/age.jpg`,
       para: "As individuals age, they may experience unique mental health challenges related to physical decline, social isolation, cognitive changes, and chronic illnesses.",
       Desc: "As individuals age, they may experience unique mental health challenges related to physical decline, social isolation, cognitive changes, and chronic illnesses. Age-related psychiatric conditions commonly include dementia, Alzheimer’s disease, late-onset depression, anxiety, and delirium. These conditions can significantly affect memory, behavior, and emotional well-being, impacting both the individual and their caregivers.",
       Child: "Our center offers compassionate, specialized care for older adults through psychiatric assessment, cognitive therapies, medication management, and supportive environments tailored to promote dignity, comfort, and quality of life in later years."
     },
    
     {
-      title: "Homeless or Abandoned Individuals", image: "../../../assets/homeHelp.jpg",
+      title: "Homeless or Abandoned Individuals", image: `${process.env.PUBLIC_URL}/assets/homeHelp.jpg`,
       para: "Individuals experiencing severe mental illness who are homeless or abandoned face profound challenges, including lack of shelter, access to healthcare, and social support.",
       Desc: "Individuals experiencing severe mental illness who are homeless or abandoned face profound challenges, including lack of shelter, access to healthcare, and social support. These vulnerable populations often suffer from untreated psychiatric conditions such as schizophrenia, bipolar disorder, or severe depression, which can exacerbate their isolation and health risks.",
       Child: "Our organization is committed to outreach, rescue, and rehabilitation services tailored to meet the complex needs of these individuals. We provide emergency shelter, psychiatric evaluation, medication, counseling, and ongoing care aimed at restoring dignity, stability, and hope."
@@ -84,25 +84,25 @@ const OurService = () => {
       title: "Regular Health Examinations",
       description:
         "Periodic health assessments to monitor and maintain overall well-being",
-      icon: "../../../assets/healthcare1.png", // Replace with actual image path
+      icon: `${process.env.PUBLIC_URL}/assets/healthcare1.png`, // Replace with actual image path
     },
     {
       title: "Psychiatric Counseling",
       description:
         "Expert psychiatric evaluation and counseling provided by renowned and experienced mental health professionals",
-      icon: "../../../assets/growth1.png", // Replace with actual image path
+      icon: `${process.env.PUBLIC_URL}/assets/growth1.png`, // Replace with actual image path
     },
     {
       title: "Monthly Medical Checkups",
       description:
         "Monthly routine physical health checkups are conducted by an in-house physician to ensure ongoing medical care and monitoring",
-      icon: "../../../assets/diet1.png", // Replace with actual image path
+      icon: `${process.env.PUBLIC_URL}/assets/diet1.png`, // Replace with actual image path
     },
     {
       title: "Holistic Care ​",
       description:
         "Compassionate and comprehensive treatment aimed at improving both physical and mental health, delivered in a nurturing and supportive environment.",
-      icon: "../../../assets/protest1.png", // Replace with actual image path
+      icon: `${process.env.PUBLIC_URL}/assets/protest1.png`, // Replace with actual image path
     },
   ];
 
